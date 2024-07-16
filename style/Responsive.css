@@ -1,0 +1,42 @@
+
+/* navber section Responsive style start here */
+@media screen and (max-width: 575.99px) {
+    .navber{
+        background-color: aquamarine;
+       }
+       .home-text{
+        display: none;
+       }
+       .navber-icon{
+        display: none;
+       }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767.99px) {
+   .navber{
+    background-color: rgb(180, 38, 12);
+   }
+   .home-icon{
+    display: none;
+   }
+    
+}
+
+@media screen and (min-width: 768px) and (max-width: 991.99px) {
+    .navber{
+        background-color: rgb(255, 178, 164);
+       }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199.99px) {
+    .navber{
+        background-color: rgb(12, 207, 126);
+       }
+}
+
+@media screen and (min-width: 1200px) {
+    .navber{
+        background-color: rgb(240, 224, 2);
+       }
+}
+

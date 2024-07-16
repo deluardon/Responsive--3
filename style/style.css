@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+/* Universal selector style start here * */
+
+* {
+  margin: 0px;
+  padding: 0px;
+  border-radius: 0px;
+}
+
+/* Universal selector style end here */
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/* navber section style start here */
+
+.navber {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 50px;
+}
+.navber li a {
+  text-decoration: none;
+  color: #3a3a3a;
+  font-feature-settings: "clig" off, "liga" off;
+  font-size: 24px;
+  font-weight: 700;
+}
+.navber li {
+  list-style: none;
+}
+
+.navber ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  gap: 30px;
+}
+.navber ul li a {
+  text-decoration: none;
+  color: #3A3A3A;
+  font-size: 16px;
+  font-weight: 600;
+}
+.home-icon{
+    
+}
+
+
+
+/* navber section style end here */
